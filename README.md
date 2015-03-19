@@ -12,7 +12,7 @@ Nyaplot: https://github.com/domitry/nyaplot
 ## Usage
 
 ```
-$ docker run -d -p 8888:8888 nagachika/iruby:latest
+$ docker run -d -p 8888:8888 -v `pwd`:/data nagachika/iruby:latest
 ```
 
 open `http://(DOCKER HOST):8888` in browser.
