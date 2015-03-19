@@ -14,6 +14,10 @@ RUN gem install nyaplot
 
 COPY config /root/.config
 
+RUN mkdir /data
+
+VOLUME /data
+
 EXPOSE 8888
 
 CMD ["iruby", "notebook"]
