@@ -10,6 +10,7 @@ RUN curl -o ruby-2.2.1.tar.gz http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1
     ./configure --prefix=/usr/local --disable-install-doc && \
     make && make install
 RUN gem install iruby
+RUN gem install nyaplot
 
 COPY config /root/.config
 
