@@ -4,7 +4,9 @@ Dockerize IRuby and Nyaplot.
 This image contains IPython notebook & IRuby & Nyaplot.
 
 IPython: http://ipython.org/
+
 IRuby: https://github.com/minad/iruby
+
 Nyaplot: https://github.com/domitry/nyaplot
 
 ## Usage
